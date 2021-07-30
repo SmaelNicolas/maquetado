@@ -15,7 +15,8 @@ body {
   flex-direction: column;
   text-align: center;
   flex-wrap: wrap;
-  position: relative; }
+  position: relative;
+  background-color: white; }
   .aboutUs__title {
     width: 100%;
     font-size: 2em;
