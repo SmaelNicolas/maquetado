@@ -4,7 +4,22 @@
     flex-direction: column;
     text-align: center;
     flex-wrap: wrap;
-    margin-top: 150px;
+    margin-top: 100px;
+    background-color: $bgcProps;
+
+    &__title{
+        width: 100%;
+        font-size: 2em;
+        padding: 0px 0 50px 0;
+        background-color: $bgcPropsH2;
+
+        &__line{
+            height: 1px;
+            width: 110px;
+            margin:0 auto;
+            background-color: $bgcPropsButton;
+        }
+    }
 
     &__container{
         width: 100%;
@@ -12,43 +27,78 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        background-color: $bgcProps;
     }
 
     &__card{
         width: 300px;
         display: flex;
         flex-direction: column;
-        border: 1px solid black;
-        
-
-        
+        background-color: $bgcPropsCards;
+        padding-bottom: 100px;
+                
         &__img{
+            background-image: url(../../../img/noImg2.webp);
             width: 100%;
             padding: 0;
             border-radius: 10px;
-            border: 1px solid black;
         }
+        
         
         &__info{
             text-align: start;
             padding: 15px;
+            background-color: $bgcPropsInfo;
+            
         }
-
+        
         &__price{
-            color: green;
-        }
+            background-color: $bgcPropsInfo;
 
+            &__sell{
+                font-weight: bolder;
+                background-color: $bgcPropsInfo;                
+            }
+        }
+        
         &__imgTitle{
+            background-color: $bgcPropsH3;
+            font-size: 1.5em;
+            padding: 10px 0px 10px 0px;
         }
 
         &__ambientes{
+            display: flex;
+            background-color: $bgcPropsInfo;
+            padding-bottom: 5px;
+
+            &__icon{
+                margin-top: 2px;
+                width: 20px;
+                height: 10px;
+                font-size: 15px;
+                font-weight: 900;
+                color:$bgcPropsButton;
+                text-align: center;
+                line-height: 10px;
+            }
+        }
+
+        &__direction{
+            background-color: $bgcPropsInfo;
         }
 
         &__information{
             width: 100%;
+            height: 30px;
             background-color: yellow;
+            margin-top: 30px;
+            font-size: 15px;
+            font-weight: bold;
+            color: $bgcPropsInfo;
             border: 0px;
-            border-radius: 10px;
+            border-radius: 5px;
+            background-color: $bgcPropsButton;
         }
 
 

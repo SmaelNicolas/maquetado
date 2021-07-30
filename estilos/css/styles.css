@@ -1,13 +1,15 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #ececec;
+  font-family: 'Roboto', sans-serif; }
 
 body {
   width: calc(100vw - (100vw - 90%));
   height: 100vh;
   margin: 0 auto;
-  background-color: rgba(245, 229, 196, 0.671); }
+  background-color: white; }
 
 .aboutUs {
   width: 100%;
@@ -20,28 +22,38 @@ body {
   .aboutUs__title {
     width: 100%;
     font-size: 2em;
-    padding: 20px 0 20px 0; }
+    padding: 30px 0 30px 0;
+    background-color: white; }
+    .aboutUs__title__line {
+      height: 1px;
+      width: 110px;
+      margin: 0 auto;
+      background-color: #ffaf00; }
   .aboutUs__card__container {
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center; }
+    align-items: center;
+    background-color: white; }
   .aboutUs__card {
     width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    margin-bottom: 5px; }
+    padding-bottom: 25px;
+    background-color: white;
+    border-bottom: 5px solid #ececec; }
     .aboutUs__card__title {
       padding: 15px;
-      font-size: 1.5em; }
+      font-size: 1.5em;
+      background-color: white; }
     .aboutUs__card__text {
       padding: 0px 15px 0px 15px;
-      text-align: start; }
+      text-align: start;
+      background-color: white; }
 
 .propDestacadas {
   width: 100%;
@@ -49,30 +61,72 @@ body {
   flex-direction: column;
   text-align: center;
   flex-wrap: wrap;
-  margin-top: 150px; }
+  margin-top: 100px;
+  background-color: white; }
+  .propDestacadas__title {
+    width: 100%;
+    font-size: 2em;
+    padding: 0px 0 50px 0;
+    background-color: white; }
+    .propDestacadas__title__line {
+      height: 1px;
+      width: 110px;
+      margin: 0 auto;
+      background-color: #ffaf00; }
   .propDestacadas__container {
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    background-color: white; }
   .propDestacadas__card {
     width: 300px;
     display: flex;
     flex-direction: column;
-    border: 1px solid black; }
+    background-color: white;
+    padding-bottom: 100px; }
     .propDestacadas__card__img {
+      background-image: url(../../../img/noImg2.webp);
       width: 100%;
       padding: 0;
-      border-radius: 10px;
-      border: 1px solid black; }
+      border-radius: 10px; }
     .propDestacadas__card__info {
       text-align: start;
-      padding: 15px; }
+      padding: 15px;
+      background-color: white; }
     .propDestacadas__card__price {
-      color: green; }
+      background-color: white; }
+      .propDestacadas__card__price__sell {
+        font-weight: bolder;
+        background-color: white; }
+    .propDestacadas__card__imgTitle {
+      background-color: white;
+      font-size: 1.5em;
+      padding: 10px 0px 10px 0px; }
+    .propDestacadas__card__ambientes {
+      display: flex;
+      background-color: white;
+      padding-bottom: 5px; }
+      .propDestacadas__card__ambientes__icon {
+        margin-top: 2px;
+        width: 20px;
+        height: 10px;
+        font-size: 15px;
+        font-weight: 900;
+        color: #ffaf00;
+        text-align: center;
+        line-height: 10px; }
+    .propDestacadas__card__direction {
+      background-color: white; }
     .propDestacadas__card__information {
       width: 100%;
+      height: 30px;
       background-color: yellow;
+      margin-top: 30px;
+      font-size: 15px;
+      font-weight: bold;
+      color: white;
       border: 0px;
-      border-radius: 10px; }
+      border-radius: 5px;
+      background-color: #ffaf00; }
