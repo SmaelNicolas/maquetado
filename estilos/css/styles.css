@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  width: calc(100vw - (100vw - 100%)); }
+
+.aboutUs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap; }
+  .aboutUs__title {
+    width: 100%;
+    padding: 20px 0 20px 0; }
+    .aboutUs__title ::after {
+      width: 50px;
+      height: 5px;
+      background-color: yellow; }
+  .aboutUs__card__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; }
+  .aboutUs__card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black; }
+    .aboutUs__card__text {
+      text-align: start; }
+
+.propDestacadas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap; }
+  .propDestacadas__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  .propDestacadas__card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black; }
+    .propDestacadas__card__img {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid black; }
+    .propDestacadas__card__info {
+      text-align: start; }
+    .propDestacadas__card__price {
+      color: green; }
+    .propDestacadas__card__information {
+      width: 100%;
+      background-color: yellow;
+      border: 0px;
+      border-radius: 10px; }
