@@ -28,6 +28,7 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         background-color: $bgcProps;
+        
     }
 
     &__card{
@@ -35,11 +36,12 @@
         display: flex;
         flex-direction: column;
         background-color: $bgcPropsCards;
-        padding-bottom: 100px;
+        padding:0px 10px 100px 10px;
                 
         &__img{
             background-image: url(../../../img/noImg2.webp);
             width: 100%;
+            height: 230px;
             padding: 0;
             border-radius: 10px;
 
@@ -99,7 +101,7 @@
             border: 0px;
             border-radius: 5px;
             background-color: $bgcPropsButton;
-            
+            cursor: pointer;
         }
 
 
