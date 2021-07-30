@@ -111,7 +111,7 @@ body {
       background-color: white;
       padding-bottom: 5px; }
       .propDestacadas__card__ambientes__icon {
-        margin-top: 2px;
+        margin: 2px 4px 0px 0px;
         width: 20px;
         height: 10px;
         font-size: 15px;
@@ -120,6 +120,7 @@ body {
         text-align: center;
         line-height: 10px; }
     .propDestacadas__card__direction {
+      display: flex;
       background-color: white; }
     .propDestacadas__card__information {
       width: 100%;
