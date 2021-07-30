@@ -22,7 +22,8 @@ body {
     width: 100%;
     font-size: 2em;
     padding: 30px 0 30px 0;
-    background-color: white; }
+    background-color: white;
+    color: rgba(46, 45, 45, 0.842); }
     .aboutUs__title__line {
       height: 1px;
       width: 150px;
@@ -66,7 +67,8 @@ body {
     width: 100%;
     font-size: 2em;
     padding: 0px 0 50px 0;
-    background-color: white; }
+    background-color: white;
+    color: rgba(46, 45, 45, 0.842); }
     .propDestacadas__title__line {
       height: 1px;
       width: 150px;
