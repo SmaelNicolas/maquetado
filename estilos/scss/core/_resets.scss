@@ -2,8 +2,12 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
 }
 
 body{
-    width: calc(100vw - (100vw - 100%));
+    width: calc(100vw - (100vw - 90%));
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgba(245, 229, 196, 0.671);
 }

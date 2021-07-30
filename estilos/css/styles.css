@@ -4,25 +4,27 @@
   box-sizing: border-box; }
 
 body {
-  width: calc(100vw - (100vw - 100%)); }
+  width: calc(100vw - (100vw - 90%));
+  height: 100vh;
+  margin: 0 auto;
+  background-color: rgba(245, 229, 196, 0.671); }
 
 .aboutUs {
   width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  position: relative; }
   .aboutUs__title {
     width: 100%;
+    font-size: 2em;
     padding: 20px 0 20px 0; }
-    .aboutUs__title ::after {
-      width: 50px;
-      height: 5px;
-      background-color: yellow; }
   .aboutUs__card__container {
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center; }
   .aboutUs__card {
@@ -31,8 +33,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black; }
+    border: 1px solid black;
+    margin-bottom: 5px; }
+    .aboutUs__card__title {
+      padding: 15px;
+      font-size: 1.5em; }
     .aboutUs__card__text {
+      padding: 0px 15px 0px 15px;
       text-align: start; }
 
 .propDestacadas {
@@ -40,11 +47,13 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-top: 150px; }
   .propDestacadas__container {
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly; }
   .propDestacadas__card {
     width: 300px;
@@ -53,10 +62,12 @@ body {
     border: 1px solid black; }
     .propDestacadas__card__img {
       width: 100%;
+      padding: 0;
       border-radius: 10px;
       border: 1px solid black; }
     .propDestacadas__card__info {
-      text-align: start; }
+      text-align: start;
+      padding: 15px; }
     .propDestacadas__card__price {
       color: green; }
     .propDestacadas__card__information {
