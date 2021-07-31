@@ -118,7 +118,8 @@ body {
         font-weight: 900;
         color: #ffaf00;
         text-align: center;
-        line-height: 10px; }
+        line-height: 10px;
+        background-color: white; }
     .propDestacadas__card__direction {
       display: flex;
       background-color: white; }
